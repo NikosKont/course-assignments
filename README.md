@@ -11,3 +11,5 @@
 ### [MEM-264 : Applied Statistics (Elective)](applied-statistics)
 
 ### [CS-255: Software Programming Laboratory (Core)](software-lab)
+
+### [CS-345: Operating Systems (Core)](operating-systems)

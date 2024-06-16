@@ -3,6 +3,8 @@
 
 ### [CS-573: Optimization Methods (Elective, Graduate level)](optimization-methods)
 
+### [MEM-264 : Applied Statistics (Elective)](applied-statistics)
+
 ### [CS-473: Pattern Recognition (Elective)](pattern-recognition)
 
 ### [CS-370: Digital Signal Processing (Elective)](signal-processing)

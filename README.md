@@ -17,5 +17,5 @@ Selected course assignments completed during my studies at the [Computer Science
 - [CS-255: Software Programming Laboratory (Core)](software-lab): Assignments in C
 
 - [CS-345: Operating Systems (Core)](operating-systems): Assignments in C
-- 
+
 - [CS-252: Object-Oriented Programming (Core)](oop-java): Project in Java

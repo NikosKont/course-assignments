@@ -1,0 +1,9 @@
+
+@
+java:S2140")Use "java.util.Random.nextInt()" instead.(½ê×À
+v
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(œˆÍÿ8Õ¹àà/
+‡
+java:S1319Õ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(î€ùú
+‡
+java:S1319â"iThe type of "dealCards" should be an interface such as "List" rather than the implementation "ArrayList".(ó·ÛÉ8ô ½àà/

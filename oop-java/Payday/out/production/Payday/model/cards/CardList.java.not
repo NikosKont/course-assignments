@@ -1,0 +1,25 @@
+package model.cards;
+
+import java.util.ArrayList;
+
+public class CardList<T extends Card> extends ArrayList<Card> {
+    public ArrayList<MailCard> toMailCard() throws IllegalArgumentException {
+        ArrayList<MailCard> mailCardList = new ArrayList<MailCard>();
+        for (Card card : this) {
+            if (!(card instanceof MailCard)) 
+                throw new IllegalArgumentException("CardList contains non-MailCard");
+            mailCardList.add((MailCard) card);
+        }
+        return mailCardList;
+    }
+
+    public ArrayList<DealCard> toDealCard() throws IllegalArgumentException {
+        ArrayList<DealCard> dealCardList = new ArrayList<DealCard>();
+        for (Card card : this) {
+            if (!(card instanceof DealCard)) 
+                throw new IllegalArgumentException("CardList contains non-DealCard");
+            dealCardList.add((DealCard) card);
+        }
+        return dealCardList;
+    }
+}

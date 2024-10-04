@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model.cards</OriginalElement>
+  <nodes>
+    <node x="756.0" y="414.0">model.cards.Move</node>
+    <node x="953.0" y="414.0">model.cards.Charity</node>
+    <node x="185.99999999999994" y="414.0">model.cards.Receive</node>
+    <node x="391.99999999999994" y="414.0">model.cards.Ad</node>
+    <node x="0.0" y="538.0">model.cards.Cards</node>
+    <node x="574.0" y="414.0">model.cards.Bill</node>
+    <node x="590.0" y="0.0">model.cards.Card</node>
+    <node x="467.0" y="274.0">model.cards.MailCard</node>
+    <node x="0.0" y="414.0">model.cards.Pay</node>
+    <node x="681.0" y="240.0">model.cards.DealCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.cards.MailCard" target="model.cards.Card" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="564.0" y="215.0" />
+      <point x="676.0" y="215.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="model.cards.DealCard" target="model.cards.Card" relationship="GENERALIZATION">
+      <point x="0.0" y="-62.0" />
+      <point x="788.0" y="215.0" />
+      <point x="676.0" y="215.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="model.cards.Ad" target="model.cards.MailCard" relationship="GENERALIZATION">
+      <point x="5.6843418860808015E-14" y="-39.5" />
+      <point x="473.0" y="389.0" />
+      <point x="564.0" y="389.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="model.cards.Pay" target="model.cards.MailCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="83.0" y="389.0" />
+      <point x="564.0" y="389.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="model.cards.Receive" target="model.cards.MailCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="278.99999999999994" y="389.0" />
+      <point x="564.0" y="389.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="model.cards.Charity" target="model.cards.MailCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1045.0" y="389.0" />
+      <point x="564.0" y="389.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="model.cards.Move" target="model.cards.MailCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="844.5" y="389.0" />
+      <point x="564.0" y="389.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="model.cards.Bill" target="model.cards.MailCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="655.0" y="389.0" />
+      <point x="564.0" y="389.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8917345750873108" showDependencies="false" x="568.5" y="419.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

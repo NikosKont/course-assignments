@@ -1,0 +1,22 @@
+package view;
+
+public class Actions {
+    class Button {
+        List actionlisteners;
+
+        fireActionPerformed(ActionEvent event) {
+            for (actionlistener : actionlisteners) {
+                actionlisteners.actionPerformed();
+            }
+        }
+
+        addactionlistener();
+    }
+
+
+    class actionlistener {
+        actionPerformed(ActionEvent event) {
+            // do something
+        }
+    }
+}

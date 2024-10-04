@@ -1,0 +1,26 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(ıµôİúÿÿÿÿ8Í¡›–â/
+C
+java:S3010%"&Remove this assignment of "dealCards".(ºèˆ·8Î¡›–â/
+C
+java:S3010&"&Remove this assignment of "mailCards".(¨Çß¼8Î¡›–â/
+Q
+java:S3010'"/Remove this assignment of "discardedMailCards".(Ÿ¦¶óüÿÿÿÿ8Î¡›–â/
+Q
+java:S3010("/Remove this assignment of "discardedDealCards".(£¸¶şÿÿÿÿ8Î¡›–â/
+X	java:S125"<This block of commented-out lines of code should be removed.(›º¹¢8Î¡›–â/
+]	java:S1257"<This block of commented-out lines of code should be removed.(ÙåÂïÿÿÿÿÿ8Ñ¡›–â/
+]	java:S125;"<This block of commented-out lines of code should be removed.(¸·Í“øÿÿÿÿ8Ñ¡›–â/
+X	java:S125W"<This block of commented-out lines of code should be removed.(×¤Á®8Ñ¡›–â/
+{
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ¦¶óüÿÿÿÿ8Ô¡›–â/
+{
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(£¸¶şÿÿÿÿ8Ô¡›–â/
+†
+java:S1319$"dThe type of "deal" should be an interface such as "List" rather than the implementation "ArrayList".(Î“£şÿÿÿÿ8Ô¡›–â/
+†
+java:S1319$"dThe type of "mail" should be an interface such as "List" rather than the implementation "ArrayList".(Î“£şÿÿÿÿ8Ô¡›–â/
+a
+java:S1155’">Use isEmpty() to check whether the collection is empty or not.(­£Á‰üÿÿÿÿ8šî“â/
+a
+java:S1155¨">Use isEmpty() to check whether the collection is empty or not.(’Î™şÿÿÿÿ8Ÿ©Ã€â/

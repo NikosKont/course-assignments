@@ -1,0 +1,57 @@
+
+Ÿ
+java:S1186Ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Òòª8Ü¹°ªã/
+D
+java:S1659"'Declare "dealCards" on a separate line.(„¹¤±8½æÛšè/
+s
+java:S1450"VRemove the "jackpot" field and declare it as a local variable in the relevant methods.(â×Ôü8¿æÛšè/
+N
+java:S1948",Make "controller" transient or serializable.(š·Âëüÿÿÿÿ8ÂæÛšè/
+I
+java:S1948",Make "playerGUIs" transient or serializable.(¯³Ü°8ÃæÛšè/
+i
+java:S3252C"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8ÓæÛšè/
+^
+java:S3252P"AUse static access with "javax.swing.SwingConstants" for "CENTER".(»ƒ±»8ØæÛšè/
+H
+java:S1948n"&Make "card" transient or serializable.(—à…”úÿÿÿÿ8èæÛšè/
+^
+java:S3252u"AUse static access with "javax.swing.SwingConstants" for "CENTER".(»ƒ±»8îæÛšè/
+F
+java:S1948œ"(Make "player" transient or serializable.(ĞÈØ±8ï¹°ªã/
+_
+java:S3252 "AUse static access with "javax.swing.SwingConstants" for "CENTER".(¤–ƒÊ8çÛšè/
+K
+java:S1948ë"(Make "player" transient or serializable.(Ç¹Ù±úÿÿÿÿ8™çÛšè/
+p
+java:S3776í"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÛğõÔ8›çÛšè/
+_
+java:S3252õ"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ÒóÚö8‘º°ªã/
+F
+java:S1659æ"(Declare "background" on a separate line.(“ÍÕ8ñüÊè/
+d
+java:S3252ë"AUse static access with "javax.swing.SwingConstants" for "CENTER".(§àÿÿÿÿÿ8ÇçÛšè/
+_
+java:S3252÷"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Õø®¿8Ÿº°ªã/
+_
+java:S3252“"AUse static access with "javax.swing.SwingConstants" for "CENTER".(¨§šÂ8àçÛšè/
+^
+java:S3252›"@Use static access with "javax.swing.SwingConstants" for "RIGHT".(Á£ºæ8ÉçÛšè/
+d
+java:S3252€"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ç§Óµüÿÿÿÿ8€ıÊè/
+_
+java:S3252—"AUse static access with "javax.swing.SwingConstants" for "CENTER".(™¬ÁÌ8‚ıÊè/
+h
+java:S1192—"JDefine a constant instead of duplicating this literal "Jackpot: " 3 times.(™¬ÁÌ8ëçÛšè/
+d
+java:S1192ö"FDefine a constant instead of duplicating this literal "Arial" 3 times.(ÈÎË˜8ëçÛšè/
+e
+java:S1192ù"GDefine a constant instead of duplicating this literal " Euros" 9 times.(„á•€8ëçÛšè/
+K
+java:S1604„"(Make this anonymous inner class a lambda(çß™Öÿÿÿÿÿ8îçÛšè/
+K
+java:S1604”"(Make this anonymous inner class a lambda(øÓçæøÿÿÿÿ8£º°ªã/
+F
+java:S1604Ÿ"(Make this anonymous inner class a lambda(§üúú8£º°ªã/
+F
+java:S1604­"(Make this anonymous inner class a lambda(ÃÑˆ°8£º°ªã/

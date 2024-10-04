@@ -1,0 +1,141 @@
+// package view;
+
+// import model.cards.*;
+// import javax.swing.*;
+// import java.awt.*;
+
+// abstract class ShowCard extends JFrame {
+//     JLabel image;
+//     JLabel message;
+
+//     protected ShowCard(Card card, String type) {
+//         super(type);
+//         getContentPane().setPreferredSize(new Dimension(400, 200));
+//         pack();
+//         setLayout(null);
+//         setLocationRelativeTo(null);
+//         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+//         image = new JLabel(new ScalableImage(card.getImage(), 150, 125));
+//         image.setBounds(10, 10, 150, 125);
+//         add(image);
+//     }
+// }
+
+// class ShowMailCard extends ShowCard {
+//     JButton button;
+
+//     public ShowMailCard(MailCard card) {
+//         super(card, card.getClass().getSimpleName() + " Mail Card");
+//         message = new JLabel(getMessage(card), JLabel.CENTER);
+//         message.setBounds(170, 10, 220, 125);
+//         add(message);
+
+//         setIconImage(new ImageIcon("resources/images/mailCard.png").getImage());
+
+//         button = new JButton(card.getChoice());
+//         button.setSize(button.getPreferredSize());
+//         button.setLocation(200 - button.getWidth() / 2, 150);
+//         button.addActionListener(e -> {
+//             // card.performAction();
+//             dispose();
+//         });
+//         add(button);
+
+//         setVisible(true);
+//     }
+
+//     String getMessage(MailCard card) {
+//         // HTML so that text breaks over lines as needed
+//         return "<html>" + card.getMessage() + "</html>";
+//     }
+// }
+
+// class ShowDealCard extends ShowCard {
+//     public static final int BUY = 0;
+//     public static final int SELL = 1;
+//     public static final int SEE = 2;
+//     JButton option1;
+//     JButton option2;
+//     DealCard card;
+//     MainWindow parent;
+
+//     public ShowDealCard(DealCard card, int action, MainWindow parent) {
+//         super(card, "Deal Card");
+
+//         this.card = card;
+//         this.parent = parent;
+
+//         message = new JLabel(getMessage(card), JLabel.CENTER);
+//         message.setBounds(170, 10, 220, 125);
+//         this.add(message);
+
+//         setIconImage(new ImageIcon("resources/images/dealCard.png").getImage());
+
+//         option1 = new JButton("Accept");
+//         option1.setBounds(90, 150, 100, 30);
+
+//         option2 = new JButton("Reject");
+//         option2.setBounds(210, 150, 100, 30);
+
+//         addActionListener(action);
+
+//         add(option1);
+//         add(option2);
+
+//         setVisible(true);
+//     }
+
+//     private void addActionListener(int action) {
+//         if (action == BUY) {
+//             option1.addActionListener(e -> {
+//                 card.getOwner().addDealCard(card);
+//                 dispose();
+//             });
+
+//             option2.addActionListener(e -> {
+//                 card.discard();
+//                 dispose();
+//             });
+//         }
+//         else if (action == SELL) {
+//             option1.addActionListener(e -> {
+//                 parent.getInfo(card.getOwner()).updateValues();
+//                 card.getOwner().sellDealCard(card);
+//                 dispose();
+//             });
+//             option1.setText("Sell");
+
+//             option2.addActionListener(e -> {
+//                 showNextDealCard(1);
+//                 dispose();
+//             });
+//             option2.setText("Next");
+//         }
+//         else if (action == SEE) {
+//             option1.addActionListener(e -> dispose());
+//             option1.setText("Exit");
+
+//             option2.addActionListener(e -> {
+//                 showNextDealCard(2);
+//                 dispose();
+//             });
+//             option2.setText("Next");
+//         }
+//     }
+
+//     void showNextDealCard(int action) {
+//         int index = card.getOwner().getDealCards().indexOf(card);
+//         if (index == card.getOwner().getDealCards().size() - 1) {
+//             new ShowDealCard(card.getOwner().getDealCards().get(0), action, parent);
+//         }
+//         else {
+//             new ShowDealCard(card.getOwner().getDealCards().get(index + 1), action, parent);
+//         }
+//     }
+
+//     String getMessage(DealCard card) {
+//         // HTML so that text breaks over lines as needed
+//         return "<html>" + card.getMessage() + "<br><br>Cost: " + card.getCost() + "<br>Value: " + card.getValue() + "</html>";
+//     }
+// }

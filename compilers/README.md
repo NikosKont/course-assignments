@@ -1,3 +1,3 @@
-# Compilers
+# [CS-340: Compilers](https://www.csd.uoc.gr/~hy340/) @ CSD - UoC, Spring 2024 (Core Course)
 
-[Alpha Compiler](alpha-compiler): Main project for the CS340 - Compilers course at the University of Crete. Compiler and runtime VM for Alpha, a proprietary programming language.
+[Alpha Compiler](alpha-compiler): Main project for the course. Compiler and runtime VM for Alpha, a proprietary programming language.

@@ -2,5 +2,5 @@
 
 All of the algorithms used are implemented from scratch in pure numpy and scipy.
 
-- [regression-completion](regression-completion): Applying regression and matrix completion techniques on the Boston Housing dataset.
-- [svd-pca](svd-pca): Analysis of the MovieLens dataset, making use of Singular Value Decomposition and Principal Component Analysis.
+- [regression-completion](regression-completion): Ordinary Least Squares and LASSO regression, matrix completion.
+- [svd-pca](svd-pca): Singular Value Decomposition (SVD) and Principal Component Analysis through SVD.

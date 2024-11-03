@@ -1,3 +1,3 @@
 # SVD & PCA
 
-Implementation and application of SVD and PCA on the MovieLens dataset.
+Implementation of SVD from scratch. Derivation and implementation of PCA using SVD. User similarity search in low-dimensional PCA space on the MovieLens dataset.

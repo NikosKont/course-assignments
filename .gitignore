@@ -1,9 +1,0 @@
-potential
-*transl*
-output.ipynb
-*__pycache__
-*bak*
-*.pyc
-*.DS_Store
-*vscode
-.pytest_cache

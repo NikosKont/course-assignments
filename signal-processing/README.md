@@ -1,4 +1,4 @@
-# [CS-370: Digital Signal Processing](https://www.csd.uoc.gr/~hy370/index_en.html) @ CSD - UoC, Fall 2023 (Elective Course)
+# [CS370: Digital Signal Processing](https://www.csd.uoc.gr/~hy370/index_en.html) @ CSD - UoC, Fall 2023 (Elective Course)
 
 Applications of digital signal processing techniques using relevant modules in scipy and numpy. (Note: All text is in Greek)
 

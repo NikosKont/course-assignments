@@ -1,3 +1,4 @@
-# MEM-264: Applied Statistics, elective course from the Mathematics Department of the University of Crete, Spring 2023
+# MEM264: Applied Statistics @ UoC, Spring 2023 (Elective course from the Mathematics Department)
 
-[Predicting movie revenue](movie-revenue): Course project
+[Course project](movie-revenue/movie_revenue.ipynb):
+Predicting movie revenue using multiple linear regression, based on data from [The Movie Database](https://www.themoviedb.org).

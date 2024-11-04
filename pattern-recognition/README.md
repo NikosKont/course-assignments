@@ -1,11 +1,11 @@
-# [CS-473: Pattern Recognition](https://www.csd.uoc.gr/~hy473/) @ CSD - UoC, Spring 2023 (Elective Course)
+# [CS473: Pattern Recognition](https://www.csd.uoc.gr/~hy473/) @ CSD - UoC, Spring 2023 (Elective Course)
 
-Implementations of several Pattern Recognition/Machine Learning algorithms from scratch, in pure numpy.
+Implementations (from scratch, in pure numpy) and applications of the following machine learning algorithms:
 
-- [Bayesian Classifier](bayesian-classifier)
+- [Bayesian Classifier](bayesian-classifier/hw1.ipynb)
 
-- [Bayesian Theorem](bayesian-theorem)
+- [Bayesian Inference](bayesian-inference/hw2.ipynb)
 
-- [MLE, KDE, kNN](mle-kde-knn)
+- [MLE, KDE, kNN](mle-kde-knn/hw3.ipynb)
 
-- [Perceptron](perceptron)
+- [Perceptron](perceptron/hw4.ipynb)

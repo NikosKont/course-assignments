@@ -1,4 +1,4 @@
-# [CS-255: Software Programming Lab](https://www.csd.uoc.gr/~hy255/assignments.html) @ CSD - UoC, Spring 2021 (Core Course)
+# [CS255: Software Programming Lab](https://www.csd.uoc.gr/~hy255/assignments.html) @ CSD - UoC, Spring 2021 (Core Course)
 
 - [Assignment 1](translate): Translate Program
 
